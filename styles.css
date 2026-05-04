@@ -1,0 +1,58 @@
+.gtc-sync-status[data-gtc-status="connected"] {
+  color: #24b75a;
+}
+
+.gtc-sync-status[data-gtc-status="connecting"] {
+  color: #cec527;
+}
+.gtc-sync-status[data-gtc-status="auth-error"] {
+  color: #e98000;
+}
+
+.gtc-sync-status[data-gtc-status="disconnected"] {
+  color: #ef4444;
+}
+
+.gtc-alert {
+  padding: 4px 2px 2px;
+}
+
+.gtc-alert__body {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 2px 0 20px;
+}
+
+.gtc-alert__icon {
+  flex-shrink: 0;
+  margin-top: 2px;
+  width: 40px;
+  height: 40px;
+}
+
+.gtc-alert__icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.gtc-alert--warning .gtc-alert__icon {
+  color: var(--color-yellow);
+}
+
+.gtc-alert--error .gtc-alert__icon {
+  color: var(--color-red);
+}
+
+.gtc-alert__message {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-normal);
+  white-space: pre-wrap;
+}
+
+.gtc-alert__buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}

@@ -1,0 +1,5 @@
+{
+  "websocketUrl": "ws://10.0.1.44:8081",
+  "websocketToken": "KILIAN",
+  "autoConnect": true
+}
