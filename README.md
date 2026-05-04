@@ -1,6 +1,6 @@
 # GTC-Sync
 
-An Obsidian plugin that synchronizes Markdown notes with an external server over WebSocket.
+An Obsidian plugin that synchronizes Obsidian notes with GTC (An ERP by Etudes Informatiques et Services) through a WebSocket.
 
 ## Overview
 
