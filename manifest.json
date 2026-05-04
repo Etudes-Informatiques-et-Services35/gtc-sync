@@ -3,9 +3,8 @@
     "name": "GTC Sync",
     "version": "1.0.0",
     "minAppVersion": "1.4.0",
-    "description": "Synchronizing GTC notes with Obsidian",
+    "description": "Synchronizing notes with GTC.",
     "author": "Kilian Breton (Etudes Informatiques et Services)",
     "authorUrl": "https://github.com/KilianEIS",
-    "isDesktopOnly": false,
-    "css": "styles.css"
+    "isDesktopOnly": false
   }
