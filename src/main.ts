@@ -99,7 +99,7 @@ export default class GTCSyncPlugin extends Plugin {
     ).open();
   }
 
-  async onload() {
+  onload() {
     this.loadSettings();
 
     this.vaultApi = new VaultApi(this.app);
@@ -447,7 +447,6 @@ class GTCSyncPluginSettingTab extends PluginSettingTab {
       .setDesc(t("settingsUrlDesc"))
       .addText((text) =>
         text
-          // eslint-disable-next-line obsidianmd/ui/sentence-case
           .setPlaceholder("ws://127.0.0.1:8080")
           .setValue(this.plugin.settings.websocketUrl)
           .onChange((value) => {
