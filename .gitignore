@@ -5,3 +5,4 @@ node_modules/
 node_modules/*
 .claude/
 .claude/*
+main.js
